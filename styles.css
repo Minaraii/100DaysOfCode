@@ -1,0 +1,21 @@
+/* Establecemos la fuente para todo el cuerpo */
+body {
+    font-family: "Tangerine", serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo suave */
+}
+
+/* Encabezado */
+h1 {
+    color: rgb(1, 77, 1);
+    font-weight: 700; /* Tamaño mayor para el titulo */
+    font-size: 3rem; /* Tamaño mayor para el titulo */
+}
+
+/* Parrafos */
+p {
+    color: blue;
+    font-size: 1.1rem; /* Tamaño adaptable */
+    margin-bottom: 10px;
+}
