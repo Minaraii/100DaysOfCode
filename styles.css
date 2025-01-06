@@ -10,12 +10,12 @@ body {
 h1 {
     color: rgb(1, 77, 1);
     font-weight: 700; /* Tamaño mayor para el titulo */
-    font-size: 3rem; /* Tamaño mayor para el titulo */
+    font-size: 5rem; /* Tamaño mayor para el titulo */
 }
 
 /* Parrafos */
 p {
-    color: blue;
-    font-size: 1.1rem; /* Tamaño adaptable */
-    margin-bottom: 10px;
+    color: rgb(33, 33, 117);
+    font-size: 2.1rem; /* Tamaño adaptable */
+    margin-bottom: 100px;
 }
