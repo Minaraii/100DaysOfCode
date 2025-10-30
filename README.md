@@ -1,2 +1,0 @@
-# 100DaysOfCode
-# Proyect Odin
