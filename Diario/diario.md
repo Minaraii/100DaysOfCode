@@ -5,4 +5,4 @@
 - Actividad: cree el index.html inicial y estructura de carpetas 
 - Proximo objetivo: Añadir CSS y JS
 
-Día 1: Ejercicios de codigo
+💻 Día 1 – Ejercicio HTML: Explorando el Hero con Columnas
