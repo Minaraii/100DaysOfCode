@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
+header {
+    font-size: larger;
+    text-shadow: #333 0 0 7px;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    line-height: 1.7;
+    background-color: #0898f898;
     color: #333;
     padding: 20px;
 }
@@ -19,13 +23,24 @@ header, footer {
 }
 
 main section {
-    background: white;
+    background: rgba(255, 255, 255, 0.452);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+main#practicas h2 {
+    font-size: 2em;
+    text-shadow: 0 0 7px #2f10a0;
+}
+
+#Proyectos h1 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 0 7px #dcff19;
+    margin-bottom: 10px;
+}
 a.btn {
     display: inline-block;
     background-color: #0078ff;
@@ -34,8 +49,11 @@ a.btn {
     border-radius: 7px;
     text-decoration: none;
     transition: background 0.3s ease;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
 }
 
 a.btn:hover {
-    background-color: #005ecb;
+    background-color: #2c42a8;
 }
