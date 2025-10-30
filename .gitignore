@@ -1,0 +1,24 @@
+# Archivos de dependencias o librerías (si usas Node.js o similares)
+node_modules/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Configuraciones del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Llaves o secretos (muy importante)
+*.pem
+*.key
+*.env
