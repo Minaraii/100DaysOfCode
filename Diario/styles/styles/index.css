@@ -26,3 +26,16 @@ main section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+a.btn {
+    display: inline-block;
+    background-color: #0078ff;
+    color: white;
+    padding: 10px 17px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #005ecb;
+}
