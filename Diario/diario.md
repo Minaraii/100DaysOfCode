@@ -6,7 +6,10 @@
 
 💻 Día 3 – Hero con Columnas Interactivas
 
-## Dia 1h
+💻 Día 4 – Creacion y Organizacion del Footer 
+
+
+## Dia 1
 🗓️ Plan de 17 días – “Vitaly Project” (HTML + CSS + JS)
 🩵 FASE 1: Estructura y base (Días 1–4)
  Tema: HTML basico
@@ -16,10 +19,10 @@
 
 
 💻 Día 2 - Ejercicio HTML CSS: Estructura de columnas (hero/calistenia)
-## Dia 2h
+## Dia 2
 Diseñar el hero principal (logo, frase, botón) Vitaly
 ## Dia 3
-    Crear las secciones.
+Crear las secciones.
         Que es Vitaly
         Beneficios
         Que incluye
@@ -35,3 +38,12 @@ Diseñar el hero principal (logo, frase, botón) Vitaly
     Animaciones suaves y efecto de enfoque en la imagen
     
     Diseñar un hero dividido en 5 columnas interactivas, donde cada columna tenga su propia imagen, título y caja de información, y resalte al pasar el cursor.
+## Dia 4
+Hoy trabaje en la creacion y organizacion del footer demi pagina web. 
+Aprendi a: 
+    Corregir errores de estructura en HTML (cierres de etiquetas y enlaces).
+    usar mailto: para crear un enlace de corre.
+    controlar el espaciado entre titulos con margenes.
+    Aplicar estilos simples en CSS para dar un look mas epico, ordenado y profesional.
+    Entender mejor como los tarjet, margin y hover afectan la apariencia.
+El footer ahora muestra mi nombre, correo, derechos reservados y redes sociales con un efecto visual al pasar el mouse muy bonito.
