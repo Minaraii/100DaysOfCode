@@ -3,6 +3,22 @@ body {
   padding: 0;
 }
 
+.btn-back:hover {
+  background-color: #5568b9a9;
+  color: white; 
+}
+
+.btn-back {  
+  background-color: #76b4fc7e;
+  color: rgb(0, 0, 0);
+  padding:1px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 3px auto;
+  display: block;
+  width: fit-content;
+}
 .container_page_1 {
   width: 100%;
   height: 100vh;
@@ -44,4 +60,6 @@ body {
 .bg5 {
   background-image: url('https://www.losmvmt.com/content/images/size/w960/2022/10/IMG_3554.jpg');
 }
+
+/*Texto encima de las imagenes*/
 
