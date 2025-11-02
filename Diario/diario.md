@@ -8,6 +8,8 @@
 
 💻 Día 4 – Creacion y Organizacion del Footer 
 
+💻 Día 5 – Inicio de la Fae 2: Diseño y estilo
+
 
 ## Dia 1
 🗓️ Plan de 17 días – “Vitaly Project” (HTML + CSS + JS)
@@ -47,3 +49,6 @@ Aprendi a:
     Aplicar estilos simples en CSS para dar un look mas epico, ordenado y profesional.
     Entender mejor como los tarjet, margin y hover afectan la apariencia.
 El footer ahora muestra mi nombre, correo, derechos reservados y redes sociales con un efecto visual al pasar el mouse muy bonito.
+## Dia 5
+Agregar estilos globales (colores, tipografia, margenes, botones) 
+Fondo degradado o imagen suave tipo wellness
