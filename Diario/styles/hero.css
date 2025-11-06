@@ -36,6 +36,7 @@ body {
   background-position: center;
   cursor: pointer;
   filter: brightness(0.6);
+  /* Se bloquea el tamaño máximo de las columnas */
   max-width: 300px;
   padding: 1rem;
 }
@@ -67,4 +68,19 @@ body {
 }
 
 /*Texto encima de las imagenes*/
+.btn-hero {
+    display: inline-block;
+    background: linear-gradient(135deg, #5e3df6, #a65dfb);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(166, 93, 251, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.btn-hero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px rgba(166, 93, 251, 0.8);
+}

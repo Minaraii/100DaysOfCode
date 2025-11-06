@@ -92,11 +92,22 @@ Diseño moderno, armónico y adaptable.
 - Revisaste legibilidad, proporciones y espaciado en dispositivos móviles.
 
 ## Dia 8:Añadir animaciones suaves (transiciones, hover, fade-in).
-
+Día 8 — Añadir Animaciones Suaves ✨
+Hoy mejoré el Panel de Ejercicios 愛律 (Airitsu) agregando transiciones, efectos hover y animaciones fade-in para que todo se sienta más fluido y vivo. Aprendí a usar transition y @keyframes en CSS para lograr movimientos suaves y naturales.
 📲 **Clave:**  
 Un sitio responsive no es solo que “se vea bien”, sino que **fluya bien** en cualquier pantalla.
 
----
+## Dia 9: Block and Inline.
+🧩
+Hoy profundicé en cómo los elementos HTML se comportan en la página: los elementos de tipo block ocupan todo el ancho disponible y comienzan en una nueva línea (como <div>, <p>, <section>), mientras que los elementos inline solo ocupan el espacio necesario y se alinean dentro de una misma línea (como <span>, <a>, <strong>).
+Comprendí cómo esto afecta el flujo del diseño y cómo combinarlos estratégicamente mejora la estructura visual y el control del espacio
+
+## Dia 10: Repaso
+“愛律 · 100 Days of Code”
+(Airitsu — Amor y Disciplina)
+
+Y cada bloque de 10 días podría tener un título:
+“Fase I — Fundamentos”, “Fase II — Diseño”, “Fase III — Interactividad”...
 
 ## 🧭 Filosofía de Aprendizaje
 
