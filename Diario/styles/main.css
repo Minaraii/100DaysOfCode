@@ -29,9 +29,9 @@ header {
     padding: 20px;
     background: linear-gradient(90deg, #3a1c71, #d76d77, #ffaf7b);
     
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: red;
     text-shadow: 0 0 20px rgba(157, 122, 255, 0.4);
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 /* --- INTRO --- */
