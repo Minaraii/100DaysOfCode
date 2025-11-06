@@ -91,6 +91,8 @@ Diseño moderno, armónico y adaptable.
 - Entendiste cómo usar `flex-wrap`, `max-width`, y `vw/vh` correctamente.
 - Revisaste legibilidad, proporciones y espaciado en dispositivos móviles.
 
+## Dia 8:Añadir animaciones suaves (transiciones, hover, fade-in).
+
 📲 **Clave:**  
 Un sitio responsive no es solo que “se vea bien”, sino que **fluya bien** en cualquier pantalla.
 
