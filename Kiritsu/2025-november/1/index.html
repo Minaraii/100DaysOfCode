@@ -63,7 +63,111 @@
                     font-weight: bold;
                     transition: all 0.2s ease;
                 }
-            
+
+                button:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 5px 10px rgba(140,82,255,0.4);
+                }
+
+                .exercise {
+                    background: rgba(255,255,255,0.08);
+                    border-left: 5px solid #a061f3;
+                    border-radius: 12px;
+                    padding: 15px;
+                    margin-bottom: 20px;
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+                }
+
+                .action { display: flex; gap: 10px; justify-content: space-between;} 
         </style>
     </head>
-</html>
+
+    <body>
+        <header>愛律 · Panel de Ejercicios</header>
+
+        <div class="panel">
+            <h2>Agregar Ejercicio</h2>
+            <input id="exerciseName" placeholder="Nombre del ejercicio" />
+            <select id="muscleGroup">
+                <option value="Grupo Muscular"></option>
+                <option>Cabeza</option>
+                <option>Pecho</option>
+                <option>Espalda</option>
+                <option>Brazos</option>
+                <option>Abdomen</option>
+                <option>Piernas</option>
+            </select>
+            <textarea id="comments" placeholder="Comentarios o detalles"></textarea>
+            <div class="actions">
+                <button id="addBtn">Agregar Ejercicio</button>
+                <button id="clearBtn" style="background: linear-gradient(90deg, #7b2ff7, #c471ed);">Borrar todo</button>
+
+                <div class="results">
+                    <h2>Buscar Ejercicio</h2>
+                    <input id="search" placeholder="Buscar por nombre o grupo muscular" />
+                    <div id="exerciseList"></div>
+                </div>
+
+                <script>
+                    let exercise = JSON.parse(localStorage.getItem('ecercises'))|| [];
+
+                    function save() {
+                        localStorage.setItem('exercises', JSON.stringify(exercises));
+                    }
+
+                    function render(list = exercises) {
+                        const container = document.getElementById('exerciseList');
+                        container.innerHTML = list.map((ex, i) => `
+                            <div class='exercise'>
+                                <strong>${ex.name}</strong><br>
+                                <em>Grupo Muscular:</em> ${ex.muscle}<br>
+                                <p>${ex.comments}</p>
+                                <div class='actions'>
+                                    <button onclick='removeExercise(${i})' style='background:#d63384'>Eliminar</button>
+                                    </div>
+                                    </div>').join('');
+                                }
+                    
+                    function addExercise() {
+                    const name = document.getElementById('exerciseName').value.trim();
+                    const muscle = document.getElementById('muscleGroup').value;
+                    const comments = document.getElementById('comments').value.trim();
+                    if (!name || !muscle) return alert('Completa nombre y grupo muscular');
+                    exercises.push({ name, muscle, comments });
+                    save();
+                    render();
+                    document.getElementById('exerciseName').value = '';
+                    document.getElementById('muscleGroup').value = '';
+                    document.getElementById('comments').value = '';
+                                }
+
+                                function removeExercise(index) {
+                                if (!confirm('¿Seguro que deseas eliminar este eejrcicio?')) return;
+                                exercises.splice(index, 1);
+                                save();
+                                render();
+                                }
+
+                                function clearExercises() {
+                                if(!confirm('¿Borrar todos los ejercicios?')) return;
+                                exercises = [];
+                                save();
+                                render();
+                                }
+                            
+                                function searchExercise() {
+                                const q = document.getElementById('search').value.toLowerCase();
+                                const filtered = exercises.filter(ex => 
+                                ex.name.toLowerCase().includes(q) || ex.muscle.toLowerCase().includes(q)
+                                );
+                                render(filtered);
+                                }
+
+                                document.getElementById('addBtn').onclick = addExercise;
+                                document.getElementById('clearBtn').onclick = clearExercises;
+                                document.getElementById('search').oninput = searchEcercise;
+
+                                render();
+                                </script>
+                                </body>
+                                </html>
