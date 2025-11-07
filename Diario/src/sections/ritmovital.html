@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Ritmo Vital - Contador de Ayuno</title>
+  <link rel="stylesheet" href="../css/ritmovital.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <button onclick="history.back()" class="btn-back">Home</button>
+
+      <div class="logo">RV</div>
+      <div class="brand">
+        <h1>Ritmo Vital</h1>
+        <p class="lead">Contador de ayuno consciente - combina ciencia, hábito y presencia.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <div class="timer-wrap">
+          <div class="ring">
+            <svg viewBox="0 0 120 120">
+              <defs>
+                <linearGradient id="g1" x1="0%" x2="100%">
+                  <stop offset="0%" stop-color="#7dd3fc"/>
+                  <stop offset="100%" stop-color="#60a5fa"/>
+                </linearGradient>
+              </defs>
+              <circle cx="60" cy="60" r="52" stroke="rgba(255,255,255,0.06)" stroke-width="8" fill="none"/>
+              <circle id="progress" cx="60" cy="60" r="52"
+                stroke="url(#g1)" stroke-width="8" stroke-linecap="round"
+                fill="none" stroke-dasharray="326.72" stroke-dashoffset="326.72"
+                transform="rotate(-90 60 60)"/>
+            </svg>
+            <div class="time-container">
+              <div class="time" id="displayTime">00:00:00</div>
+              <div class="sub" id="displayState">No iniciado</div>
+            </div>
+          </div>
+
+          <div class="preset-list">
+            <button class="ghost" data-length="16">16:8</button>
+            <button class="ghost" data-length="18">18:6</button>
+            <button class="ghost" data-length="20">20:4</button>
+            <button class="ghost" data-length="24">24h</button>
+          </div>
+
+          <div class="controls">
+            <button id="startBtn" class="primary">Iniciar</button>
+            <button id="pauseBtn">Pausar</button>
+            <button id="endBtn" class="ghost">Terminal</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección de tipos de ayuno-->
+    <section id="tipos-ayuno" class="card">
+      <h2>Tipos de Ayuno Intermitentes</h2>
+      <p class="lead">Explora los métodos más practicados y elige el que mejor se adapte a tu ritmo</p>
+      <div class="ayuno-grid">
+        <div class="ayuno-card">
+          <h3>16 / 8</h3>
+          <p>Ayunas 16 horas y comes en una ventana de 8 horas.</p>
+        </div>
+        <div class="ayuno-card">
+          <h3>18 / 6</h3>
+          <p>Ayuno intermedio, recomendado para experiencia media.</p>
+        </div>
+        <div class="ayuno-card">
+          <h3>20 / 4</h3>
+          <p>Conocido como "El Guerrero", ventana de 4 horas.</p>
+        </div>
+        <div class="ayuno-card">
+          <h3>24 h</h3>
+          <p>Un solo plato al día, requiere precaución.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Ritmo Vital — Desarrollado para hábitos conscientes.
+    </footer>
+
+    <script src="../js/Ritmo.js"></script>
+  </div>
+</body>
+</html>
