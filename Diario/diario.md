@@ -109,6 +109,19 @@ Comprendí cómo esto afecta el flujo del diseño y cómo combinarlos estratégi
 Y cada bloque de 10 días podría tener un título:
 “Fase I — Fundamentos”, “Fase II — Diseño”, “Fase III — Interactividad”...
 
+## 🌅 Día 11 — Formulario con Conexión 
+🌅 Aprender a enviar los datos de un formulario sin necesidad de servidor propio, usando EmailJS o Google Sheets.
+
+## 🗓️ Día 12 — Validar campos del formulario y mostrar confirmación
+📘 Aprendizajes:
+
+Validar nombre y correo con JavaScript.
+
+Detectar si un campo está vacío o si el correo no tiene formato válido.
+
+Mostrar un mensaje de confirmación con una animación suave (fade-in).
+Día 12 — Practiqué cómo validar campos del formulario (nombre y correo) con JavaScript y mostrar mensajes de confirmación animados. Aprendí sobre preventDefault(), validaciones básicas y efectos de transición en CSS.
+
 ## 🧭 Filosofía de Aprendizaje
 
 > “Código limpio, mente limpia.”  
