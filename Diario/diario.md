@@ -122,6 +122,11 @@ Detectar si un campo está vacío o si el correo no tiene formato válido.
 Mostrar un mensaje de confirmación con una animación suave (fade-in).
 Día 12 — Practiqué cómo validar campos del formulario (nombre y correo) con JavaScript y mostrar mensajes de confirmación animados. Aprendí sobre preventDefault(), validaciones básicas y efectos de transición en CSS.
 
+## Dia 13:Prueba completa
+🗓️ Día 13 — Prueba completa (Móvil y Escritorio)
+
+📘 Objetivo:
+Verificar que tu formulario y diseño funcionen correctamente en distintos dispositivos y pantallas.
 ## 🧭 Filosofía de Aprendizaje
 
 > “Código limpio, mente limpia.”  
