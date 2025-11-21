@@ -37,8 +37,7 @@ body {
   cursor: pointer;
   filter: brightness(0.6);
   /* Se bloquea el tamaño máximo de las columnas */
-  max-width: 300px;
-  padding: 1rem;
+ 
 }
 
 /* cuando pasas el mouse, se expande y se aclara */
