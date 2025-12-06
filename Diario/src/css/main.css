@@ -72,6 +72,28 @@ header {
     margin-bottom: 8px;
 }
 
+/* --- FECHA COOL --- */
+.day-header {
+    display: flex;
+    align-items: baseline; /* Alinea perfecto el titulo y la fecha */
+    gap:12px;
+}
+
+.date-cool {
+    font-family: monospace; /* Look tecnico y moderno */
+    font-size: 13px;
+    color: #f5ff8c; /* Color amarillo suave */
+    /*Brillo suave alrededor*/
+    text-shadow:
+        0 0 4px #f5ff8c,
+        0 0 8px #f5ff8c,
+        0 0 12px #f5ff8c;
+
+    opacity: 0.85; /* Aun mas discreto */
+
+    letter-spacing: 0.3px; /* Espaciado entre letras */
+}
+
 /* --- FOOTER --- */
 footer {
     text-align: center;
