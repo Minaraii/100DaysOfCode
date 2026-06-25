@@ -126,3 +126,31 @@ footer {
     transform: translateY(-3px);
     box-shadow: 0 0 20px rgba(166, 93, 251, 0.8);
 }
+
+.day-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.capital-cool{
+    margin-left:auto;
+    margin-right:18px;
+
+    font-family:"Courier New", monospace;
+    font-size:.78rem;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    color:#ffe84d;
+
+    text-shadow:
+        0 0 4px #f5ff8c,
+        0 0 8px #0051ff,
+        0 0 14px #f5ff8c;
+
+    opacity:.9;
+
+    user-select:none;
+}
